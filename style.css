@@ -118,7 +118,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -135,7 +134,6 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -146,6 +144,10 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
   color: rgba(255, 255, 255, 1);
+}
+
+.d-bloc a:hover .icon-md:hover {
+  color: #1a1a1a;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -444,6 +446,10 @@ nav .caret {
   margin: 0 5px 5px 0;
 }
 
+.btn:focus {
+  border: 1px solid #000000;
+}
+
 .btn.pull-right {
   margin: 0 0 5px 5px;
 }
@@ -477,6 +483,10 @@ button {
 
 .icon-lg {
   font-size: 60px !important;
+}
+
+.icon-size {
+  font-size: 15px !important;
 }
 
 .sm-shadow {
@@ -648,7 +658,11 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #464646 !important;
+  color: #333 !important;
+}
+
+.social:focus {
+  text-shadow: 2px 2px 2px black;
 }
 
 .container {
@@ -751,14 +765,14 @@ h4 {
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-}
-
 .adress {
+  color: #333;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .adress span {
@@ -807,7 +821,11 @@ h4 {
 }
 
 .text-black {
-  color: rgb(46, 42, 42);
+  color: #333;
+}
+
+.bold-text {
+  font-weight: 550;
 }
 
 .ltc-white {
