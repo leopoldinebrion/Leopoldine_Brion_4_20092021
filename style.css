@@ -333,6 +333,11 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
   background: transparent;
+  font-weight: bold;
+}
+
+.nav > li a:focus {
+  border-bottom: 1px solid black;
 }
 
 .navbar-toggle {
@@ -342,6 +347,7 @@ a:hover {
 
 .navbar-toggle:hover {
   background: transparent !important;
+  font-weight: bold;
 }
 
 .navbar-toggle .icon-bar {
